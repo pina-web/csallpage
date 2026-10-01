@@ -107,6 +107,9 @@
   var path = location.pathname;
   function here(p) { return path.indexOf(p) === 0 || path === p.slice(0, -1); }
 
+  /* 메인(목차) 페이지에서는 상단 바를 띄우지 않습니다 */
+  if (here("/csallpage/") || path === "/" || /\/csallpage\/?$/.test(path)) return;
+
   var style = document.createElement("style");
   style.id = "arte-nav-style";
   var extra = "";

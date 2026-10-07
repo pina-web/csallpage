@@ -90,7 +90,7 @@ window.ARTE_MENU = {
      "u": "https://pina-web.github.io/artepay/"
     },
     {
-     "t": "BZM 발송방법",
+     "t": "비즈엠 발송방법",
      "u": "https://pina-web.github.io/bzm/",
      "new": 1
     },
